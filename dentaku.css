@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+.result {
+  background-color: black;
+  color: #FFF;
+  text-align: right;
+  width: 26%;
+  height: 50px;
+  font-size: 40px;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button_1 {
+  width: 185px;
+}
+
+.button_2 {
+  width: 185px;
+}
