@@ -7,38 +7,39 @@
         <title>電卓</title>
       </head>
  
-      <body>
-       <input class ="result" type="text" value=0>
-         <div>
-          <button type="button" value= "7" onclick ="clickbutton(this)"> 7 </button>
-          <button type="button" value= "8" onclick ="clickbutton(this)"> 8 </button>
-          <button type="button" value= "9" onclick ="clickbutton(this)"> 9 </button>
-          <button type="button" value= "+" onclick ="clickbutton(this)"> + </button>
-         </div>
-         <div>
-          <button type="button" value= "4" onclick ="clickbutton(this)"> 4 </button>
-          <button type="button" value= "5" onclick ="clickbutton(this)"> 5 </button>
-          <button type="button" value= "6" onclick ="clickbutton(this)"> 6 </button>
-          <button type="button" value= "−" onclick ="clickbutton(this)"> − </button>
-         </div>
-         <div>
-          <button type="button" value= "1" onclick ="clickbutton(this)"> 1 </button>
-          <button type="button" value= "2" onclick ="clickbutton(this)"> 2 </button>
-          <button type="button" value= "3" onclick ="clickbutton(this)"> 3 </button>
-          <button type="button" value= "*" onclick ="clickbutton(this)"> * </button>
-         </div>
-         <div>
-          <button type="button" value= "0" onclick ="clickbutton(this)"> 0 </button>
-          <button type="button" value= "00" onclick ="clickbutton(this)"> 00 </button>
-          <button type="button" value= "." onclick ="clickbutton(this)"> . </button>
-          <button type="button" value= "/" onclick ="clickbutton(this)"> / </button>
-         </div>
-          <div>
-           <button class= "button_1" type="button" value="AC" onclick ="clickbutton(this)"> AC </button>
-           <button class= "button_2" type="button" value="=" onclick ="clickbutton(this)"> = </button>
-          </div>
-       
- 
-        <script src="dentaku.js"></script>
-      </body>
+     <body>
+      <table>
+       <tr>
+       <td colspan="4" id="result" >0</td>
+      </tr>
+      <tr>
+		   <td><button type= "button" value="7" onclick= "clickbutton(this)">7</button></td>
+		   <td><button type= "button" value="8" onclick= "clickbutton(this)">8</button></td>
+		   <td><button type= "button" value="9" onclick= "clickbutton(this)">9</button></td>
+		   <td><button type= "button" value="+" onclick= "clickbutton(this)">+</button></td>
+	    </tr>
+		 <tr>
+		  <td><button type= "button" value="4" onclick= "clickbutton(this)">4</button></td>
+		  <td><button type= "button" value="5" onclick= "clickbutton(this)">5</button></td>
+		  <td><button type= "button" value="6" onclick= "clickbutton(this)">6</button></td>
+		  <td><button type= "button" value="−" onclick= "clickbutton(this)">−</button></td>
+	   </tr>
+		 <tr>
+	    <td><button type= "button" value="1" onclick= "clickbutton(this)">1</button></td>
+	    <td><button type= "button" value="2" onclick= "clickbutton(this)">2</button></td>
+	    <td><button type= "button" value="3" onclick= "clickbutton(this)">3</button></td>
+ 	　  <td><button type= "button" value="*" onclick= "clickbutton(this)">*</button></td>
+	   </tr>
+     <tr>
+	    <td><button type= "button" value="0" onclick= "clickbutton(this)">0</button></td>
+		  <td><button type= "button" value="00" onclick= "clickbutton(this)">00</button></td>
+	    <td><button type= "button" value="." onclick= "clickbutton(this)">.</button></td>
+ 　　   <td><button type= "button" value="/" onclick= "clickbutton(this)">/</button></td>
+	   <tr>
+	    <td colspan= "2"><button class= "button_A" type= "button" value="AC" onclick= "clickbutton(this)">AC</button></td>
+		  <td colspan= "2"><button class="button_B" type= "button" value="=" onclick= "clickbutton(this)">=</button></td>
+		 </tr>
+	  </table>
+      <script src="dentaku.js"></script>
+     </body>
     </html>

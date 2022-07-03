@@ -1,10 +1,28 @@
+
 function clickbutton(target) {
-  let result = document.getElementsByClassName("result");
-  console.log(result.innerHTML);
-  let target_value = result.innerHTML;
-  
-  if(target_value == "AC") {
-    console.log("AC");
-    
-   }
+  let target_value = target.innerHTML;
+  let result = document.getElementById("result");
+  let str = ["+","−","*","/",]
+
+  if (target_value == "AC") {
+    result.innerHTML = "0";
+  }else if(target_value == "=") {
+    result.innerHTML = eval(result.innerHTML);
+  }else {
+    if(result.innerHTML == "0") {
+      result.innerHTML = target_value;
+    } else if (str.includes(result.innerHTML.slice(-1)) == true && str.includes(target_value) == true) {
+      result.innerHTML = result.innerHTML.slice(0,-1) + target_value
+  } else {
+    result.innerHTML += target_value;
+    }
   }
+}
+    
+
+
+
+   
+  
+  
+ 

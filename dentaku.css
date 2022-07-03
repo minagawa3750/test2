@@ -1,28 +1,28 @@
-body {
-  text-align: center;
+table {
+  margin: 3px auto;
 }
 
-.result {
-  background-color: black;
+
+
+#result {
+  background-color: #000;
   color: #FFF;
   text-align: right;
-  width: 26%;
-  height: 50px;
   font-size: 40px;
 }
 
+
+
 button {
-  width: 90px;
-  height: 40px;
-  margin-top: 5px;
-  font-weight: bold;
-  font-size: 15px;
+font-size: 30px;
+width: 100px;
+height: 100%;
 }
 
-.button_1 {
-  width: 185px;
+.button_A {
+  width: 100%;
 }
 
-.button_2 {
-  width: 185px;
+.button_B {
+  width: 100%;
 }
